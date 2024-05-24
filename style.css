@@ -1,0 +1,56 @@
+/* style.css */
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: linear-gradient(to right, #0772ec79, #0772ec79);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+#container {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  /* Enhanced shadow for a card effect */
+    text-align: center;
+    width: 500px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    /* padding: 10px; */
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    resize: none;
+    background: #f9f9f9;
+    color: #333;
+}
+
+textarea:focus {
+    border-color: #0772ec79;
+    box-shadow: 0 0 5px #0772ec79;
+    outline: none;
+}
+
+p {
+    font-size: 18px;
+}
+
+span#word, span#char {
+    font-weight: bold;
+    color: #024796af;
+}
